@@ -1,0 +1,80 @@
+/*nav*/
+nav {
+	background-color: #cfd8dc;
+	position: sticky;
+	top: 0;
+}
+
+nav > ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li {
+	margin: 10px 1rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*body*/
+body, html {
+	margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headPara {
+	width: 80%;
+	margin: 3rem auto 3rem auto;
+	padding: 2em;
+	background-color: #eceff1;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5em;
+}
+
+h3 {
+	width: 40%;
+	font-weight: normal;
+	background-color: #eceff1;
+	padding: 10px;
+}
+
+.normalPara {
+	padding: 0 2rem 1rem 2rem;
+}
+
+.italise {
+	font-style: italic;
+}
+
+#video > h3 {
+	width: 80%;
+	margin: 10px auto;
+}
+
+/*footer*/
+footer {
+	padding: .5rem 2rem;
+	background-color: #eceff1;
+	text-align: center;
+}
